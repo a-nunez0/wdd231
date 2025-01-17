@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+img {
+    width: 125px;
+    height: 125px;
+  }
+
+
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #D2E3FC;
+}
+
+header, nav, main, footer {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: black;
+}
+
+nav ul li {
+    display: inline;
+}
+
+main ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 80%;
+    justify-items: center;
+    color: antiquewhite;
+    list-style-type: decimal;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* .logo {
+    font-size: 25px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 600;
+} */
+
+.navbar a {
+    font-size: 18px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active,
+.card a:hover,
+.card a.active {
+    color: #FFC145;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: black;
+    color: antiquewhite;
+}
+.h3 {
+    color: antiquewhite;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+
+nav {
+    width: 100%;
+    text-align: center;
+    background: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/*.home-content .bttn-box {
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bttn-box a {
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    /*background: #B7FDFE;---adds color just 1*//*
+    border: 2px solid #B7FDFE;
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.bttn-box a:nth-child(2) {
+    background: transparent;
+    /*color: #B7FDFE; ---- changes the bttn letters*//*
+}*/
+
+/*.bttn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    /*chnages background of bttns*//*
+    background: #E2EFDE;
+    z-index: -1;
+    transition: .2s;
+}
+
+.bttn-box a:hover::before {
+    width: 100%;
+}*/
